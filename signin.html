@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Little Book Keeper</title>
+    <style>
+        .black-button {
+            float: right;
+            margin: 10px;
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 20px;
+            border-radius: 50px;
+            font-size: larger;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <p>ACCOUNT INFO:</p>
+    <p>FIRST NAME:</p>
+    <input placeholder="First name" id="first-name">
+    <p>LAST NAME:</p>
+    <input placeholder="Last name" id="last-name">
+    <p>EMAIL:</p>
+    <input placeholder="Email" id="email">
+    <p>PASSWORD:</p>
+    <input placeholder="Password" id="password">
+    <p>CONFIRM PASSWORD:</p>
+    <input placeholder="Confirm password" id="confirmed-password">
+    <button class="black-button" onclick="
+        window.location.replace('file:///G:/My%20Drive/Digital%20Inquiry/Little%20Code/StartingPage.html');
+    ">back</button>
+    <button class="black-button" onclick="
+        newUserLogin();
+    ">signin</button>
+    <script>
+        function newUserLogin() {
+            /*localStorage.signin = '.new-signin';*/
+            var password = document.getElementById('.password');
+            var confirmedPassword = document.getElementById('.confirmed-password');
+            if (password == confirmedPassword) {
+                alert('correct');
+            } else {
+                alert('something went wrong');
+            }
+            var login = {
+                FirstName: '.first-name',
+                LastName: '.last-name',
+                Email: '.email',
+                Password: '.password'
+            }
+        }
+
+
+
+    </script>
+</body>
+
+</html>
