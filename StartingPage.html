@@ -43,10 +43,9 @@
     <div class="first-div">
         <h1>
             LITTLE BOOK KEEPER
-            <button class="black-button"
-                onclick="window.location.replace('file:///G:/My%20Drive/Digital%20Inquiry/Little%20Code/signin.html');">get
+            <button class="black-button" onclick="redirectSignin()">get
                 started</button>
-            <button class="black-button"
+            <button class=" black-button"
                 onclick="window.location.replace('file:///G:/My%20Drive/Digital%20Inquiry/Little%20Code/login.html');">login
             </button>
         </h1>
@@ -54,10 +53,13 @@
 
     <p>little book keeper</p>
     <p>COLLECTORS STORAGE</p>
-    <button onclick="window.location.replace('file:///G:/My%20Drive/Digital%20Inquiry/Little%20Code/signin.html');">get
+    <button onclick="redirectSignin()">get
         started</button>
     <button>about</button>
     <script>
+        function redirectSignin() {
+            window.Location.href = "file:///G:/My%20Drive/Digital%20Science%20L2/Little%20Code/signin.html";
+        }
         /* brea notes: password or email.*/
     </script>
 </body>
