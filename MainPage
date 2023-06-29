@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <h1>LBK</h1>
+    <input placeholder="SEARCH" id="search">
+    <select placeholder="CATAGORISE BY">
+        <option value="alphabeticalAuthors">ALPHABETICAL BY AUTHORS</option>
+        <option value="alphabeticalTitles">ALPHABETICAL BY TITLES</option>
+        <option value="rating"> RATING</option>
+        <option value="numPages">NUMBER OF PAGES</option>
+        <option value="datePub">DATE PUBISHED</option>
+    </select>
+    <select placeholder="FILTER">
+        <option value="author">AUTHORS</option>
+        <option value="genre">GENRE</option>
+        <option value="series">SERIES</option>
+        <option value="ratingNum">RATING</option>
+        <option value="progress">PROGRESS</option>
+    </select>
+    <script>
+
+    </script>
+</body>
+
+</html>
