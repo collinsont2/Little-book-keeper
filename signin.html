@@ -42,8 +42,10 @@
             /*localStorage.signin = '.new-signin';*/
             var password = document.getElementById('.password');
             var confirmedPassword = document.getElementById('.confirmed-password');
-            if (password == confirmedPassword) {
+            if (((password || confirmedPassword) != null) && (password == confirmedPassword)) {
                 alert('correct');
+            } if ((password || confirmedPassword) == null) {
+                alert("one or both password fields havn't been filled")
             } else {
                 alert('something went wrong');
             }
